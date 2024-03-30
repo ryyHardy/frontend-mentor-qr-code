@@ -25,6 +25,7 @@ main {
 }
 
 .qr-card {
+  text-align: center;
   width: 300px;
   height: 450px;
   padding: 1rem;
@@ -32,17 +33,13 @@ main {
   background-color: var(--bg-white);
 }
 
-.qr-figure {
-  text-align: center;
-}
-
-.qr-figure img {
+.qr-card img {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
 }
 
-.qr-figure figcaption {
+.qr-card figcaption {
   padding: 0.5rem;
 }
 
